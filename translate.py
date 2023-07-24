@@ -17,6 +17,6 @@ def get_words(data):
 
 if __name__  == "__main__":
     lang = "en"       # Italian(it), Espanian(es), China(zt), French(de), English(en)
-    count = "10"     # Words count
+    count = "10"      # Words count
     raw_words = get_raw_words(count, lang)
     get_words(raw_words)
